@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pali ERoll Search</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+  <h1>Pali ERoll Search System</h1>
+
+  <input type="text" id="searchBox" placeholder="Enter Name / ID">
+  <button onclick="searchData()">Search</button>
+
+  <div id="result"></div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
